@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ভর্তি ফরম</title>
+</head>
+<body>
+
+    <h2>ভর্তি ফরম</h2>
+
+    <form action="/submit_form.php" method="post">
+        <label for="name">নাম:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">ইমেইল:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone">ফোন:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="course">কোর্স:</label>
+        <select id="course" name="course" required>
+            <option value="computer_science">কম্পিউটার সায়েন্স</option>
+            <option value="biology">বায়োলজি</option>
+            <option value="history">ইতিহাস</option>
+        </select><br>
+
+        <input type="submit" value="জমা দিন">
+    </form>
+
+</body>
+</html>
